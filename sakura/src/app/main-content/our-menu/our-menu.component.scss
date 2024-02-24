@@ -1,0 +1,57 @@
+
+.ourMenu{
+    margin:50px;        
+    text-align: center;
+ }
+
+h1{
+    font-size: 50px;   
+    font-weight: 200;    
+    color: rgb(104, 2, 2);
+ }  
+
+.menuSection{
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.choos{
+    display: flex;
+    >img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.choiceMenu{
+    margin:25px;
+}
+
+.dish{
+    font-family: 'economica';
+    font-size: 45px;
+    font-weight: bold;
+}
+
+table{
+    margin:25px;
+}
+
+tr{
+    color: grey;
+    font-family: 'raleway';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+td{
+    padding-right:25px;
+}
